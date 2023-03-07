@@ -1,0 +1,34 @@
+name: Daily Message
+
+on:
+  schedule:
+    - cron: "0 16 * * *"
+
+jobs:
+  Post Message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - uses: pnpm/action-setup@v2
+        with:
+          run_install: |
+            - args: [--frozen-lockfile]
+
+      - name: Extra Config
+        run: echo $CONFIG_JSON | config.json
+        env:
+          CONFIG_JSON: ${{ env.CONFIG_JSON }}
+
+      - name: Post Message
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          DEBUG_CHANNEL: ${{ env.DEBUG_CHANNEL }}
+        run: node scripts/generateMessage.mjs

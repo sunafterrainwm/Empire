@@ -1,0 +1,231 @@
+{
+	"$schema": "./$schema.json",
+	"calendarId": "SickManEmpire",
+	"startAt": "2019-07-05T00:00:00+08:00",
+	"calendarName": "拖稿紀年",
+	"calendarCycle": 43200,
+	"list": [
+		{
+			"from": 2423,
+			"to": 2447,
+			"who": "Gamekiller0010",
+			"year": "順正"
+		},
+		{
+			"from": 2448,
+			"to": 2457,
+			"who": "北京小黃02",
+			"year": "祿昌"
+		},
+		{
+			"from": 2458,
+			"to": 2482,
+			"who": "Yxh1433",
+			"year": "紹命"
+		},
+		{
+			"from": 2483,
+			"to": 2497,
+			"who": "水餃喵",
+			"year": "永貓"
+		},
+		{
+			"from": 2498,
+			"to": 2534,
+			"who": "恩力",
+			"year": "樂武"
+		},
+		{
+			"from": 2534,
+			"to": 2538,
+			"who": "Nishino Asuka",
+			"year": "背書"
+		},
+		{
+			"from": 2539,
+			"to": 2554,
+			"who": "WaveWSBS",
+			"year": "大元"
+		},
+		{
+			"from": 2555,
+			"to": 2560,
+			"who": "Big Oceans",
+			"year": "皇祐"
+		},
+		{
+			"from": 2561,
+			"to": 2572,
+			"who": "Greekhaohao",
+			"year": "豫始"
+		},
+		{
+			"from": 2573,
+			"to": 2603,
+			"who": "50829!",
+			"year": "天昇"
+		},
+		{
+			"from": 2604,
+			"to": 2613,
+			"who": "Historygg1130",
+			"year": "秉賦"
+		},
+		{
+			"from": 2614,
+			"to": 2632,
+			"who": "ManunChan",
+			"year": "道元"
+		},
+		{
+			"from": 2633,
+			"to": 2645,
+			"who": "InsaneGuo",
+			"year": "乾建"
+		},
+		{
+			"from": 2646,
+			"to": 2659,
+			"who": "白桓亮",
+			"year": "河寧"
+		},
+		{
+			"from": 2660,
+			"to": 2683,
+			"who": "FoolPiasar",
+			"year": "典興"
+		},
+		{
+			"from": 2684,
+			"to": 2687,
+			"who": "Kirby凃",
+			"year": "天權"
+		},
+		{
+			"from": 2687,
+			"to": 2698,
+			"who": "ATannedBurger",
+			"year": "大漢"
+		},
+		{
+			"from": 2699,
+			"to": 2700,
+			"who": "Psycho CSL",
+			"year": "淑玲"
+		},
+		{
+			"from": 2701,
+			"to": 2718,
+			"who": "Evesiesta",
+			"year": "成德"
+		},
+		{
+			"from": 2719,
+			"to": 2750,
+			"who": "Martin6776",
+			"year": "至明"
+		},
+		{
+			"from": 2751,
+			"to": 2752,
+			"who": "一只星步甲",
+			"year": "廣普"
+		},
+		{
+			"from": 2753,
+			"to": 2755,
+			"who": "Cookai1205",
+			"year": "弘瑞"
+		},
+		{
+			"from": 2755,
+			"to": 2768,
+			"who": "Oftx2222",
+			"year": "景順"
+		},
+		{
+			"from": 2769,
+			"to": 2769,
+			"who": "Chiyi4488二世",
+			"year": "樂泰"
+		},
+		{
+			"from": 2770,
+			"to": 2794,
+			"who": "Ndi Lin",
+			"year": "天翔"
+		},
+		{
+			"from": 2795,
+			"to": 2806,
+			"who": "EieChan0831",
+			"year": "秋陽"
+		},
+		{
+			"from": 2806,
+			"to": 2844,
+			"who": "维基岩浆",
+			"year": "萬治"
+		},
+		{
+			"from": 2845,
+			"to": 2845,
+			"who": "SunAfterRain",
+			"year": "國翔"
+		},
+		{
+			"from": 2846,
+			"to": 2867,
+			"who": "Phantom Mazo",
+			"year": "英化"
+		},
+		{
+			"from": 2868,
+			"to": 2908,
+			"who": "Ephemeral Days",
+			"year": "永治"
+		},
+		{
+			"from": 2909,
+			"to": 2923,
+			"who": "爨龘龘",
+			"year": "光興"
+		},
+		{
+			"from": 2923,
+			"to": 2949,
+			"who": "Dqwyy",
+			"year": "普化"
+		},
+		{
+			"from": 2950,
+			"to": 2959,
+			"who": "曦莹",
+			"year": "禎德"
+		},
+		{
+			"from": 2960,
+			"to": 2974,
+			"who": "Talimu0518",
+			"year": "誠大"
+		},
+		{
+			"from": 2975,
+			"to": 3020,
+			"who": "HualinXMN",
+			"year": "忠大"
+		},
+		{
+			"from": 3021,
+			"to": 3024,
+			"who": "MuscleCool321",
+			"year": "祥瑞"
+		},
+		{
+			"from": 3025,
+			"to": 3076,
+			"who": "Jihaoyang",
+			"year": "寧樂"
+		}
+	]
+}

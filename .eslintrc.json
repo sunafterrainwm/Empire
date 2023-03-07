@@ -1,0 +1,63 @@
+{
+	"env": {
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"xo",
+		"plugin:import/recommended"
+	],
+	"plugins": [
+		"import"
+	],
+	"parserOptions": {
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"rules": {
+		"import/order": [
+			"error",
+			{
+				"groups": [
+					"builtin",
+					"external",
+					"internal",
+					[
+						"parent",
+						"sibling"
+					],
+					"index",
+					"unknown"
+				],
+				"newlines-between": "always",
+				"alphabetize": {
+					"order": "asc",
+					"caseInsensitive": true
+				},
+				"warnOnUnassignedImports": true,
+				"pathGroups": []
+			}
+		]
+	},
+	"settings": {
+		"import/resolver": {
+			"typescript": true,
+			"node": {
+				"extensions": [
+					".mjs"
+				]
+			}
+		}
+	},
+	"overrides": [
+		{
+			"extends": [
+				"xo-typescript"
+			],
+			"files": [
+				"*.d.ts",
+				"*.mts"
+			]
+		}
+	]
+}
