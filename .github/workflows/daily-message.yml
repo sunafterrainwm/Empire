@@ -2,10 +2,10 @@ name: Daily Message
 
 on:
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "0 8,16 * * *"
 
 jobs:
-  Post Message:
+  Post-Message:
     runs-on: ubuntu-latest
 
     steps:
