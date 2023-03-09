@@ -36,7 +36,7 @@ jobs:
 
       - name: Save dependencies
         uses: actions/cache/save@v3
-        if: ${{ github.event_name == "push" }}
+        if: ${{ github.event_name == 'push' }}
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
