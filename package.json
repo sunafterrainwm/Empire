@@ -20,7 +20,7 @@
 	"keywords": [],
 	"author": "sunafterrainwm <sunafterrainwm@gmail.com>",
 	"license": "MIT",
-	"packageManager": "pnpm@7.33.3",
+	"packageManager": "pnpm@8.6.7",
 	"dependencies": {
 		"@sinclair/typebox": "^0.25.21",
 		"chalk": "^5.2.0",
